@@ -1,0 +1,31 @@
+there are many key features of  using tailwind:
+
+SIZE VARIES
+1)sm-small
+2.md-middle// refer site
+
+CREATING BUTTON
+<body>
+<div class=">
+  <button class="text-sm px-4 py-4 bg-purple-399 text-white rounded-md hover:bg-pink-880(MENTION HOVER)>
+
+  focus state and active state:
+  focus: the state where the element is currently selected to receive input files
+  active :represent the state where the element is currently being activated by user
+
+APPLY DERECTIVE
+this can be used at time when u want to do a repetitive task at an ease
+by just spcifing any userdefined class
+
+.btn{
+   @apply  text-sm px-4 py-4 bg-purple-399 text-white rounded-md hover:bg-pink-880(MENTION HOVER);
+}//note:this would be written in styles.css
+
+
+IN THIS WAY WHEREEVER U USE THE CLASS SAME REPLICA WOULD BE CREATED--------------AND IF I WANT to add some change just after using the userdefined one i can write it
+
+//ORDER IN Tailwind PLAYS AN IMPORTANT PART
+FOR EX;if u want the tailwind utilities to be covering ur user defined value...u muat keep it in betwen components and  utilities
+
+//LAYER DERECTIVES
+//OVERWRITE A PARTICULAR LAYER

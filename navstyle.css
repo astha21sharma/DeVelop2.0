@@ -1,0 +1,21 @@
+.navigation{
+    width:420px;
+    height:70px;
+    background: #209cff;
+    position:relative;
+    display: flex;
+    
+}
+
+.navigation ul{
+    display:flex;
+    width:350px;
+}
+
+.navigation ul li{
+    position: relative;
+    list-style: none;
+    width :70px;
+    height: 70 px;
+    z-index:1;
+}

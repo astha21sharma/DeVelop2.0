@@ -1,0 +1,71 @@
+body{
+    margin: 50px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(26, 22, 22, 0.5), purple), url("img/docs-freepik1170x658v2.jpg");
+    height: 280vh;
+    opacity: 19;
+    padding: 0px;
+    color:rgb(200, 196, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    color: #fff;
+    text-align: center;
+}
+.container{
+    background-color: rgba(81, 36, 140,0.5);
+    /* margin: 0 200px; */
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 30px 35px 30px 30px ;
+
+    /* padding: 30px 40px 30px 40px; */
+}
+label{
+    display: block;
+}
+input[type=text],input[type=email],input[type=number]{
+    height: 6vh;
+    padding: 2px 10px;
+    width: 50%;
+    margin: auto;
+    border: pink 1px;
+    border-radius:5px;
+}
+input[type=submit]{
+    background-color: rgb(49, 197, 76) ;
+
+    height: 5vh;
+    padding: 15px 10px;
+    width: 50.4%;
+    align-content:first baseline;
+    margin: 46px 54px 789px 170px;
+    border: rgb(49, 197, 76) solid 1px;
+    border-radius:90px;
+    color: rgb(255, 0, 25);
+    font-size: 1em;
+}
+select{
+    height: 6vh;
+    padding: 2px 10px;
+    width: 60vw;
+    margin: auto;
+    border: whitesmoke solid 1px;
+    border-radius:3px;
+}
+input[type=textarea]{
+    display: block;
+    height: 20vh;
+    width: 57.4vw;
+    margin: auto;
+    padding: 10px 10px;
+}input[type=textarea]::placeholder{
+    margin: 10px;
+    padding: 5px 10px;
+    text-align: left;
+    
+}
